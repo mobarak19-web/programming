@@ -1,14 +1,25 @@
-#include<stdio.h>
-int main(){
-    int arr[5]={2,6,8,20,30};
-    int item=20;
-    //secnf("%d",&item);
-    for(i=1;i<=n;i++){
-        if(arr[i]==item){
-            printf("data found:%d\n",i);
-        }else{
-            printf("data is not found");
+#include <stdio.h>
+
+int main() {
+    int arr[] = {5, 3, 7, 2, 8, 9, 4};  
+    int target = 8;  
+    int size = sizeof(arr) / sizeof(arr[0]); 
+    int found = -1;  
+
+    
+    for (int i = 0; i < size; i++) {
+        if (arr[i] == target) {
+            found = i;  
+            break;  
         }
     }
+
+    
+    if (found != -1) {
+        printf("Element %d found at index %d.\n", target, found);
+    } else {
+        printf("Element %d not found in the array.\n", target);
+    }
+
     return 0;
 }
