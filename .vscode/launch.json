@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/test/mobarok/programming/feb-25/23-02-25",
-      "program": "/home/test/mobarok/programming/feb-25/23-02-25/build/Debug/outDebug",
+      "cwd": "/home/test/mh/c code",
+      "program": "/home/test/mh/c code/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
