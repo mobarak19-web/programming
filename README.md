@@ -10,10 +10,14 @@ Practice and complete at least one task from each of the following topics over t
 - [ ] **For Loop**
   - [ ] Solve at least **1 problem** using a `for` loop
   - [ ] Example idea: Print a multiplication table
+  - [ ] Solve first 10 probelm from the below website: https://www.w3resource.com/c-programming-exercises/for-loop/index.php 
+
 
 - [ ] **While Loop**
   - [ ] Solve at least **1 problem** using a `while` loop
   - [ ] Example idea: Count down from 10 to 1
+  - [ ] Solve first 10 problem from the below website: https://www.w3resource.com/c-programming-exercises/while-loop/index.php
+  
 
 ## 🔀 Conditional Statements
 
