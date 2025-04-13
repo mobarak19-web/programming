@@ -1,9 +1,14 @@
 #include<stdio.h>
 int main(){
-    int i,sum=0;
+    int i,sum=0,a,b;
+
+printf("enter the value:");
+scanf("%d",&a);
+printf("enter the value:");
+scanf("%d",&b);
 
     printf("fist 10 natural numbar display:\n");
-    for(i=1;i<=10;i++){
+    for(i=a;i<=b;i++){
         sum=sum+i;
    printf("%d\n",i);
    
