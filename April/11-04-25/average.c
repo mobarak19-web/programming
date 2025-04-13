@@ -1,13 +1,24 @@
-#include<stdio.h>
-int main(){
-    float i,sum=0,average;
-    printf(" Sum and Average of 10 Numbers from Keyboard:\n");
-    for(i=1;i<=10;i++){
-        sum=sum+i;
-       average=sum/10;
-       printf("%0.3f\n",i);
+#include <stdio.h>
 
+int main() {
+    float a ,b , sum = 0, count = 0;
+    
+    float average;
+    printf("enter the value:");
+scanf("%f",&a);
+printf("enter the value:");
+scanf("%f",&b);
+
+
+    for (int i = a; i <= b; i++) {
+        sum =sum + i;
+        count++;
     }
-    printf("The sum of 10 no is :%.3f\n",sum);
-    printf("The Average is :%.3f\n",average);
+
+    average = sum / count;
+
+    printf("Sum of numbers from %f to %f is: %.2f\n", a, b, sum);
+    printf("Average is: %.2f\n", average);
+
+    return 0;
 }
