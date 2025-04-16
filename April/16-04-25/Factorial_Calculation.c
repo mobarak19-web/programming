@@ -7,14 +7,16 @@ Input the number : 5
 Expected Output :
 The Factorial of 5 is: 120
 */
+
 #include<stdio.h>
 int main(){
-    int fact,n;
-    printf("Enter the numbar: ");
-    scanf("%d ", &n);
-    for(int i=1; i<=n; i++){
-        fact=fact * i;
-    }
-    printf(" factorial is : %d",fact);
-return 0;
+    int i,n,fact=1;
+    printf("enter a numbar:");
+    scanf("%d",&n);
+    for(i=1; i<=n; i++){
+       fact=fact*i;
+        }
+        printf("final factorial is:%d\n", fact);
+    
+    return 0;
 }
