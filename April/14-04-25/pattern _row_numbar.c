@@ -19,7 +19,7 @@ int main(){
         
           for(column=1; column<=row; column++){
 
-            printf(" * ");
+            printf("%d",column);
 
           }
     
