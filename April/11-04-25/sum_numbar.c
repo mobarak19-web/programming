@@ -2,10 +2,7 @@
 int main(){
     int i,sum=0,a,b;
 
-printf("enter the value:");
-scanf("%d",&a);
-printf("enter the value:");
-scanf("%d",&b);
+-
 
     printf("fist 10 natural numbar display:\n");
     for(i=a;i<=b;i++){
