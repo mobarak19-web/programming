@@ -2,6 +2,7 @@
 int main(){
     float n,i,x;
     double sum=0;
+    //start value fixt x
     printf("Enter the start value : ");
     scanf("%f",&x);
     printf("Enter the item numbar : ");
