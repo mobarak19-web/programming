@@ -1,4 +1,4 @@
-_/*
+/*
 15. Factorial Calculation
 
 Write a C program to calculate the factorial of a given number.
