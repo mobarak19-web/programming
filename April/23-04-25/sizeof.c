@@ -9,4 +9,4 @@ int main(){
     printf(" size of double = %d bytes\n ",sizeof(d));
     printf(" size of char = %d bytes\n ",sizeof(c));
     return 0;
-}
+}//all data type of size
