@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "e:/pro/programming/April/20-04-25",
-      "program": "e:/pro/programming/April/20-04-25/build/Debug/outDebug",
+      "cwd": "e:/pro/programming/April/10-04-25",
+      "program": "e:/pro/programming/April/10-04-25/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
