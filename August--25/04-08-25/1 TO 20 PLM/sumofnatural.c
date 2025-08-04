@@ -12,6 +12,7 @@ Test Cases:
 #include<stdio.h>
 int main(){
     int n,sum=0,i;
+    
     printf("input :");
     scanf("%d",&n);
     for( i=1; i<=n; i++){
@@ -19,5 +20,6 @@ int main(){
        sum=sum +i;
     }
        printf("Output :%d\n", sum);
+
     return 0;
 }
