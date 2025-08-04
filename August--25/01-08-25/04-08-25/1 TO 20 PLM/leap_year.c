@@ -9,5 +9,17 @@ Output: Leap Year
 */
 #include<stdio.h>
 int main(){
-    int 
+    int year;
+    while(1){
+    printf("input :");
+    scanf("%d",&year);
+    if(year%400==0){
+        printf("Leap Year\n");
+    }else if(year%4==0 && year%100!=0){
+        printf(" leap year\n");
+    }else{
+        printf(" Not leap Year\n");
+    }
+}
+    return 0;
 }
