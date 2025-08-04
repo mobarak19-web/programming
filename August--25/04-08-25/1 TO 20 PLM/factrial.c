@@ -1,10 +1,7 @@
 /*12. Factorial of a Number
 Description: Find factorial of N.
-
 Input: 5
-
 Output: 120
-
 Test Cases:
 */
 #include<stdio.h>
