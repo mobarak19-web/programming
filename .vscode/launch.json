@@ -2,6 +2,40 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "programming_9ec8c3e0"
+        },
+        {
+            "type": "java",
+            "name": "Grandperent",
+            "request": "launch",
+            "mainClass": "Grandperent",
+            "projectName": "programming_9ec8c3e0"
+        },
+        {
+            "type": "java",
+            "request": "attach",
+            "name": "Java",
+            "port": 5005,
+            "sourceRoots": []
+        },
+        {
+            "name": "Dart: Run all Tests",
+            "type": "dart",
+            "request": "launch",
+            "program": "./test/"
+        },
+        {
+            "type": "java",
+            "name": "A",
+            "request": "launch",
+            "mainClass": "A",
+            "projectName": "programming_9ec8c3e0"
+        },
+        {
             "name": "(gdb) Bash on Windows Attach",
             "type": "cppdbg",
             "request": "attach",

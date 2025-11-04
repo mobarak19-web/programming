@@ -1,12 +1,11 @@
 #include<stdio.h>
 int main(){
     int i,n;
-    int numbar[100];
-   // printf("Enter the value:");
     scanf("%d",&n);
+     int numbar[100];
     int even=0,odd=0,positive=0,negative=0;
-    for(i=0;i<=n;i++){
-        scanf("%d\n",&numbar[i]);
+    for(i=0;i<n;i++){
+        scanf("%d",&numbar[i]);
     
         
         if(numbar[i]%2==0){
@@ -19,9 +18,6 @@ int main(){
   }else if(numbar[i]<0){
       negative++;
   }
-      
-  
-        
     }
     printf("Even:%d\n",even);
     printf("Odd:%d\n",odd);
