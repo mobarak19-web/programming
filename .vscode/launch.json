@@ -3,6 +3,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "user",
+            "request": "launch",
+            "mainClass": "exceptionuser.user",
+            "projectName": "programming_9ec8c3e0"
+        },
+        {
+            "type": "java",
+            "name": "demo",
+            "request": "launch",
+            "mainClass": "excepton.demo",
+            "projectName": "programming_9ec8c3e0"
+        },
+        {
+            "type": "java",
             "name": "test",
             "request": "launch",
             "mainClass": "test",
