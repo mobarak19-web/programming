@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+    <head> 
+        <meta charset="UTF-8">
+        <title>
+          Blog
+        </title> 
+    </head>
+    <body> 
+        <form> 
+        
+        <h1 style="text-align: center;"> Sing Up Form </h1>
+        <hr> 
+        <br>
+     <label for="user "> Name :  </label>
+     <input type ="text " id="user" name="user" placeholder="User Name " > <br>
+     <label for ="email">Email : </label>
+     <input type ="email " id="email" name="useremail" placeholder="User Mail " required > <br>
+    <br>
+   <label for=" pass">Password : </label>
+   <input type ="password " id="pass" name="password" placeholder="password" > 
+   <br>
+   <label for="phn">phone : </label>
+   <select name="code">
+    <option value="+880">+880</option>
+    <option value="+990">+990</option>
+    <option value="+110">+110</option>
+    <option value="+220">+220</option>
+   </select>
+<input type="numbar" id="phn" name="phone" placeholder="1234567898"  required>
+<br>
+<label for="country">Country</label>
+<input list="con" >
+<datalist id="con"> 
+    <option value="Bangladesh"></option>
+     <option value="India"></option>
+      <option value="Nepal"></option>
+       <option value="Iran"></option>
+</datalist>
+<br>
+Gender :
+<input type="radio"id="gnd1" name="gander">
+<label for="gnd1"> Male </label>
+<input type="radio" id="gnd2" name="gender">
+<label for="gnd2"> Female </label>
+<input type="radio" id="gnd3" name="gender">
+<label for="gnd3"> Both </label>
+<br>
+<label for="date" >Date of Birth : </label>
+<input type="date" id="date" name="dob">
+<br>
+<label for="time"> Time : </label>
+<input type="time" id="time" name="tm">
+<br>
+<label for="colors"> colors : </label>
+<input type="color" id="colors" name="col">
+<br>
+<label for="file">Choose Photo : </label>
+<input type="file" id="file" name="fl" >
+<br>
+<input type="checkbx" id="vehicle1" name="vec">
+<label for="vehicle1"> I hale a Bike  </label>
+<input type="checkbx" id="vehicle2" name="vec">
+<label for="vehicle2"> I hale a Bycycle </label>
+<br>
+<textarea name="comment" cols="10" rows="10">Comment Here </textarea> 
+<br>
+<input type="submit" value="send">
+<input type="reset" value="Reset">
+</form>
+</body>
+</html>
