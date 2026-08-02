@@ -20,7 +20,7 @@ int binarysearch(int a[], int n, int target){
 }
 int main(){
     int n, target;
-    printf(" Enter ythe size array :");
+    printf(" Enter the size array :");
     scanf(" %d",&n);
     int a[n];
     printf("Enter the ellment of array :");

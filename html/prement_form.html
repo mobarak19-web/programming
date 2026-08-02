@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prement Form </title>
+</head>
+<body>
+    <form action="">
+    <h1> Prement Form </h1>
+    <p> Required Fileds are  followed * </p>
+    <h2> Contact Information </h2>
+    <p> * Name : <input type="text" name="name"> </p>
+    <fieldset>
+        <legend>Gender * </legend>
+    <p>
+        Male : <input type="radio" name="gender" id="gender" Required>
+         Female : <input type="radio" name="gender" id="gender" Required>
+          Others : <input type="radio" name="gender" id="gender">
+    </p>
+    </fieldset>
+    <p> Address : <textarea name="address" id="address" cols="700" rows="8" ></textarea></p>
+    <p> Email : * <input type="name" id="email" required></p>
+    <p> Pincode : * <input type="number" id="Pincode" name="Pincode" required></p>
+    <hr>
+
+    <h2>Prement Information </h2>
+    <p> Card_Type: *
+        <select name="card_type" id="card_type" required>
+            <option value="">-- Select a card type--</option>
+             <option value="visa">Visa</option>
+             <option value="mastercard">Mastercard</option>
+             <option value="Bkash">Bkash</option>
+             <option value="Nagad">Nagad</option>
+        </select>
+    </p>
+    <p>
+        Card_number:* <input type="number" name="card_number" id="card_number" required>
+    </p>
+<p>Expirction Date: * <input type="date" name="cxp_date" id="cxp_date" required></p>
+    <p> CVV * <input type="password" name="CVV" id="CVV" required></p>
+    <P> <input type="submit" value="Pay Now"></P>
+  </form>
+ </body>
+</html>
