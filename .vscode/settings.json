@@ -60,5 +60,6 @@
     "random": "c",
     "algorithm": "c",
     "stdio.h": "c"
-  }
+  },
+  "liveServer.settings.port": 5501
 }
