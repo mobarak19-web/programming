@@ -1,4 +1,4 @@
- # print 1 to 50000 value 
-nums=range(1,50001)
+ # print 1 to 501 value 
+nums=range(1,501)
 for i in nums:
    print(i)
