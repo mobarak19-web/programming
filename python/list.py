@@ -9,3 +9,4 @@ print(len(mork)) #list length
 print(mork[0]) # 1st index print now 
 
 print(mork[-1]) #last value print function 
+
