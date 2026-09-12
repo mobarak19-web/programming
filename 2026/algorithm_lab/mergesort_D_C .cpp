@@ -15,6 +15,7 @@ void merge(vector<int> &arr, int st, int mid, int end){
     }
  }
  while(i<=mid){
+  
      temp.push_back(arr[i]);
        i++;
      }
