@@ -1,5 +1,6 @@
 #include<iostream>
  using namespace std;
+
  //left and right child khujbe 
  int left(int i){
   return 2*i + 1;
