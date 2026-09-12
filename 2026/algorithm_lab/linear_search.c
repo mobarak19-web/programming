@@ -6,6 +6,7 @@ scanf("%d", &n);
 int a[n];
 printf("Enter the elements og array : ");
 for(i=0; i<n; i++){
+    
     scanf("%d",&a[i]);
 }
 printf(" Enter the numbar to search : ");
