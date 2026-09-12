@@ -3,6 +3,7 @@
 #include <stack>
 using namespace std;
 
+
 #define V 5
 
 vector<int> adj[V];      // original graph
