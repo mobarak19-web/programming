@@ -3,6 +3,7 @@ String name,gender;
 int age;
  t(){
    System.out.println("No information"); 
+  
  }
 t(String n,int A){
     name =n;
