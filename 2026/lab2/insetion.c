@@ -7,6 +7,7 @@ int main() {
     scanf("%d %d", &r, &c);
 
     int a[r][c];
+    
 
     printf("Enter matrix elements:\n");
     for (int i = 0; i < r; i++) {
