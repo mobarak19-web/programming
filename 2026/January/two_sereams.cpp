@@ -16,6 +16,7 @@ using namespace std;
         cout<< i <<'\n';
         cout<<  N - 2*i << '\n';
 
+     
     }
     return 0;
  }
