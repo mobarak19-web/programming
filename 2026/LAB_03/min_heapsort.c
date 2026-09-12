@@ -1,4 +1,5 @@
 #include<iostream>
+
  using namespace std;
  //left and right child khujbe 
  int left(int i){
