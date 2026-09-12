@@ -7,6 +7,7 @@ using namespace std;
 #define GRAY 1
 #define BLACK 2
 
+
 int color[V], prev[V], d[V], f[V], time;
 
 int adj[V][V]={
