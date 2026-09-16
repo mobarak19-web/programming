@@ -1,9 +1,9 @@
 name="Mobarak Husini"
 age=24
 # string operator
-# print(name.upper())
-# print(name.lower())
-# print(name)
+print(name.upper())
+print(name.lower())
+print(name)
 
 # find oparetion =search letter er location bole dibe jdi seta mar index thake 
 
