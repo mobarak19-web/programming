@@ -1,5 +1,5 @@
 #Arithnetic oparetor 
-
+ 
 a=int (input("Enter the A:"))
 b=int (input("Enter the B:"))
 sum=a+b
