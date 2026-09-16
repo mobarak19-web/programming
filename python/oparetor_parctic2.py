@@ -2,7 +2,7 @@
   #1/ print the total Bill Account
   #2/ print the averge price
   #3/Take a superhero name as input & check if it start with 'S' or 's' or not 
-
+ 
 a=float(input("Enter A:"))
 b=float(input("Enter B:"))
 c=float(input("Enter C:"))
