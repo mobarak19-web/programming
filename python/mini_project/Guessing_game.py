@@ -1,6 +1,7 @@
 import random
 
 def play_game():
+    
     lucky_num = random.randint(1,50)
     while True:
         user_num = int (input("Guess the lucky num : "))
