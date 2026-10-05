@@ -15,6 +15,9 @@ int main() {
         wt[i]=tat[i]-bt[i];
         rt[i]=wt[i];
      }
+ 
+
+     cout << "Process\tCT\tTAT\tWT\tRT" << endl;
      for(int i=0;i<7;i++){
         cout << "Process " << i+1 << ": CT=" << ct[i] << ", TAT=" << tat[i] << ", WT=" << wt[i] << ", RT=" << rt[i] << endl;
      }
